@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    font-family: Montserrat;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+ul, ol, li {
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    flex: 1 1 auto;
+}
+
+button, a, select {
+    background-color: inherit;
+    font-weight: inherit;
+    font-size: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+[class*="__container"] {
+    max-width: 1830px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+@media (max-width: 1830px) {
+    [class*="__container"] {
+        max-width: 1230px;
+    }
+}
+
+@media (max-width: 1230px ) {
+    [class*="__container"] {
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 930px) {
+    [class*="__container"] {
+        max-width: 770px;
+    }
+}
+
+@media (max-width: 770px) {
+    [class*="__container"] {
+        max-width: none;
+    }
+}
+
+/* ==================================================== */ /* ==================================================== */
+/* ==================================================== */ /* ==================================================== */
+/* ==================================================== */ /* ==================================================== */
+header {
+    background-image: url("jpg/bg__photo.png");
+    height: 949px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    min-height: 124px;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 43px;
+}
+
+
+.blok__header__logo {
+
+}
+.header__location {
+    background: none;
+    color: white;
+}
+
+option {
+    color: black;
+}
+
+/* ==================================================== */ /* ==================================================== */
+.header__menu {
+
+}
+
+.header-menu__links {
+    display: flex;
+    gap: 30px;
+}
+
+.header__menu__items {
+
+    color: white;
+
+}
+.magazine {
+    width: 136px;
+    height: 40px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 200px;
+}
+/* ==================================================== */ /* ==================================================== */
+.header__sead{
+    color: white;
+}
+.header__search__bar{
+    display: flex;
+    gap: 31.5px;
+}
+.header__search__bar-items{}
