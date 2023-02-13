@@ -55,28 +55,77 @@
                         <h3 class="content-main-block__text">
                             Знайдіть ідеальний варіант самі <br> або надайте це нам</h3>
                         <nav class="body-main-block__categories categories-main-block">
-                            <div class="categories-main-block__hous"></div>
+                            <div class="categories-main-block__hous">
+                                <div class="main-block-hous__slider">
+                                    <div class="block-hous-slider__items">
+                                        <div class="block-hous-slider__item">
+                                            <img src="jpg/basin.png" alt="">
+                                            <h1 class="sliderName__basin">З басейном</h1>
+                                        </div>
+                                        <div class="block-hous-slider__item">
+                                            <img src="jpg/lodge.png" alt="">
+                                            <h1 class="sliderName__lodge">Сімейні <br> та затишні</h1>
+                                        </div>
+                                        <div class="block-hous-slider__item">
+                                            <img src="jpg/hous.png" alt="">
+                                            <h1 class="sliderName__house">Хіти продаж</h1>
+                                        </div>
+                                    </div>
+                                    <div class="button__slider">
+                                        <button class="itc-slider__btn itc-slider__btn_prev">
+                                            <img src="jpg/left__cleec.png" alt="">
+                                        </button>
+                                        <button class="itc-slider__btn itc-slider__btn_next">
+                                            <img src="jpg/right__cleec.png" alt="">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="categories-main-block__socialNetworks"></div>
                         </nav>
                     </div>
                     <div class="body-main-block__forum">
-                        <div class="main-block__nameInputOne">
-                        <div class="main-nameInput__text">
-                            <h1 class="forum-textOne">В'їзд <span style="margin-left: 81px">Від'їзд</span></h1>
+                        <div class="block-forum__partOne">
 
-                        </div>
-                            <input type="text" name="to" id="input-to" size="16px" placeholder="Від">
-
-                            <input type="text" name="after" id="input-after" placeholder="До">
-                        </div>
-                        <div class="main-block__nameInputTwo">
-                            <div class="main-nameInput__textTwo">
-                                <h1 class="inputPeopleText">Кількість людей</h1>
+                            <div class="block-forum__inputOne">
+                                <h1 class="inputTextOne">В'їзд</h1>
+                                <input type="text" name="Entrance" id="entrance" placeholder="Від">
                             </div>
 
-                            <input type="number" name="people" id="input__people" placeholder="12">
+                            <div class="block-forum__inputTwo">
+                                <h1 class="inputTextTwo">Від'їзд</h1>
+                                <input type="text" name="departure" id="departure" placeholder="До">
+                            </div>
+
 
                         </div>
+                        <div class="block-forum__partTwo">
+                            <h1 class="textPeople">Кількість людей</h1>
+                            <input type="number" name="people" id="number__people" placeholder="12">
+                        </div>
+                        <div class="range_container">
+
+                            <div class="sliders_control">
+                                <input id="fromSlider" type="range" value="10" min="0" max="100"/>
+                                <input id="toSlider" type="range" value="40" min="0" max="100"/>
+                            </div>
+
+
+                            <div class="main-block-forum__cleec">
+                                <button type="button" class="forum__cleec">Знайти</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="main-block-content__contact ">
+                    <div class="main-block-contact__items">
+                        <a href="" class="main-block-contact__item"><img src="jpg/youtube.png" alt=""></a>
+                        <a href="" class="main-block-contact__item"><img src="jpg/insatgram.png" alt=""></a>
+                        <a href="" class="main-block-contact__item"><img src="jpg/logo_vk.png" alt=""></a>
+                        <a href="" class="main-block-contact__item"><img src="jpg/whatsapp.png" alt=""></a>
+                        <a href="" class="main-block-contact__item"><img src="jpg/telegram.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -84,7 +133,14 @@
     </header>
 
     <main class="page">
-
+        <div class="page-block__about">
+            <div class="page-about__container">
+                <div class="page-about-container__content">
+                    <h1 class="content__title">Про нас</h1>
+                    <div class="img__content"><img src="jpg/bg__about.png" alt=""></div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
